@@ -6,8 +6,9 @@ This document provides a comprehensive overview of the Quantitative Finance ML M
 ## Objectives
 The primary aim of this project was to:
 - Develop predictive models for stock returns of the CSI 800 index.
-- Implement advanced data preprocessing techniques to refine the dataset.
-- Employ machine learning algorithms to uncover investment strategies that outperform market benchmarks.
+- Predict future stock returns with a high degree of accuracy.
+- Discover orthogonal alphas with low correlation to common market factors.
+- Develop and validate trading strategies that consistently outperform the CSI 300 benchmark.
 
 ## Scope
 This project encompasses the period from "2008-01-31 to 2022-12-30, analyzing a vast array of financial features while adhering to strict confidentiality and data privacy standards as per the NDA agreement.
