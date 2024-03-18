@@ -1,20 +1,21 @@
 # Methodology
 
 ## Data Preprocessing
-Data preprocessing was a critical initial phase where we focused on cleaning and organizing our datasets. Specific steps included:
-- Elimination of features with excessive missing data.
-- Standardization to ensure comparability across various financial metrics.
-- Imputation of missing values to maintain dataset integrity.
+The project processed a dataset consisting of 2043 features, implementing steps such as:
+- Removal of features with more than 70% missing data.
+- Standardization to neutralize scale effects.
+- Missing value imputation with feature averages.
 
 ## Dimensionality Reduction
-- Implemented PCA within distinct feature categories to reduce dimensionality and retain significant variance.
+- Employed PCA within defined categories, reducing feature dimensions while preserving essential information (e.g., PCA with 5 components vs. 10 components).
 
 ## Model Development
-- Explored two machine learning models: Random Forest and XGBoost.
-- Utilized a grid-search approach to optimize hyperparameters.
+- Applied Random Forest and XGBoost models, fine-tuning parameters using techniques like RandomizedSearchCV for optimal performance.
+- Feature selection was guided by the mean absolute IC score, with a threshold of >0.05 to ensure relevance.
 
 ## Backtesting
-- Conducted rigorous backtesting to evaluate the performance of investment strategies derived from model predictions.
-- Metrics such as cumulative returns, Sharpe ratio, and maximum drawdown were analyzed.
+- The strategy backtesting showed a cumulative return of 606.24% for the top-layer stocks using PCA 5 components, substantially surpassing the benchmark's performance.
+- Strategies demonstrated robustness with a Sharpe ratio reaching up to 0.73, indicating a favourable risk-adjusted return.
 
-For a detailed breakdown, see RESULTS.md.
+For detailed analysis of results, refer to RESULTS.md.
+
