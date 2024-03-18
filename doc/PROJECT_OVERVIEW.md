@@ -11,7 +11,7 @@ The primary aim of this project was to:
 - Develop and validate trading strategies that consistently outperform the CSI 300 benchmark.
 
 ## Scope
-This project encompasses the period from "2008-01-31 to 2022-12-30, analyzing a vast array of financial features while adhering to strict confidentiality and data privacy standards as per the NDA agreement.
+Spanning from January 2008 to December 2022, the project encompasses a dataset with over 2000 financial features derived from CSI 800 stock information, scrutinized under stringent data privacy standards.
 
 ## Methodologies
 A brief outline of the methodologies used, which includes:
