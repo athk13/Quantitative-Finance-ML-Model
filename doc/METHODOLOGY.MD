@@ -11,7 +11,7 @@ The project processed a dataset consisting of 2043 features, implementing steps 
 
 ## Model Development
 - Applied Random Forest and XGBoost models, fine-tuning parameters using techniques like RandomizedSearchCV for optimal performance.
-- Feature selection was guided by the mean absolute IC score, with a threshold of >0.05 to ensure relevance.
+- Feature selection was guided by the mean absolute IC score, with a threshold of >0.05 (and >0.03) to ensure relevance.
 
 ## Backtesting
 - The strategy backtesting showed a cumulative return of 606.24% for the top-layer stocks using PCA 5 components, substantially surpassing the benchmark's performance.
