@@ -10,8 +10,8 @@ In collaboration with Optimas Capital, this applied business project harnessed R
 ## Project Overview
 
 - **Objective**: Develop predictive models for the CSI 800 index to forecast stock returns and unearth orthogonal alphas, aiming for robust, uncorrelated trading strategies.
-**Methodology**: Employed data preprocessing, including Principal Component Analysis (PCA) for dimensionality reduction and Information Coefficient (IC) scores for feature selection. Implemented Random Forest and XGBoost models, rigorously evaluated via backtesting.
-**Results**: Strategically achieved orthogonal alphas with a correlation under 0.05 and produced strategies yielding a 17.81% alpha, indicating significant outperformance over the CSI 300 benchmark.
+- **Methodology**: Employed data preprocessing, including Principal Component Analysis (PCA) for dimensionality reduction and Information Coefficient (IC) scores for feature selection. Implemented Random Forest and XGBoost models, rigorously evaluated via backtesting.
+- **Results**: Strategically achieved orthogonal alphas with a correlation under 0.05 and produced strategies yielding a 17.81% alpha, indicating significant outperformance over the CSI 300 benchmark.
 
 
 ## Repository Structure
